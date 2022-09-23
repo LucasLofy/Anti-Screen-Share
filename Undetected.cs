@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Reflection;
 
-namespace Xanax.Class
+namespace Lucas.Class
 {
-    [Obfuscation(Feature = "virtualization", Exclude = false)]
     public static class Undetected
     {
-        [Obfuscation(Feature = "virtualization", Exclude = false)]
         public static string RandomString()
         {
             var chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
